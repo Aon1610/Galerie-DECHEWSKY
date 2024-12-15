@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #d9d9d9;
+}
+
+.header {
+  display: flex;
+  align-items: center; /* Aligne verticalement le logo et les cadres */
+  padding: 10px;
+  background-color: #d9d9d9;
+  border-bottom: 2px solid #000;
+}
+
+
+.logo img {
+  height: 100px; /* Ajuste la hauteur de l'image */
+  padding: 5px;
+  border-radius: 5px; /* Coins légèrement arrondis */
+  margin-right: 15px; /* Espacement entre le logo et les cadres */
+}
+
+
+.menu {
+  display: flex;
+  gap: 10px; /* Espace horizontal entre les cadres */
+}
+
+
+.menu-item {
+  text-decoration: none;
+}
+
+
+.menu-box {
+  width: 100px; /* Largeur des cadres */
+  height: 80px; /* Hauteur des cadres */
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+
+.menu-box:hover {
+  background-color: #444;
+  transform: scale(1.05); /* Légère mise en avant au survol */
+}
+
+  .rectangle-3 {
+    width: 100%;
+    height: 108px;
+    margin-bottom: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 1.5em;
+    font-weight: normal;
+    letter-spacing: 2px; /* Espacement entre les lettres */
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.menu a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.gallery, .about, .location {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-bottom: 1px solid #ccc;
+}
+
+.gallery-content, .about-content, .location-content {
+    display: flex;
+    gap: 20px;
+}
+
+.gallery-content img, .location-content img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.about-content img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.gilles-content img {
+  width: 200%;
+  border-radius: 5px;
+}
+
+.rectangle-4 {
+    width: 100%;
+    height: 108px;
+    margin-bottom: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+  color: white;
+  font-size: 1.5em;
+  font-weight: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+.button-container {
+  position: absolute;
+  left: 45%;
+  top: 165%;
+  display: inline-block;
+}
+
+.background-splash {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  width: 280px;
+  height: 100px;
+  background: url('images/tache-rose.png') no-repeat center center;
+  background-size: cover;
+  z-index: 0;
+}
+
+.contact-button {
+  position: relative;
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 1;
+  text-transform: uppercase;
+}
+
+.contact-button:hover {
+  background-color: #333;
+}
+
+footer {
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid black;
+  position: relative;
+}
+
+
+.footer-logo img {
+  height: 50px;
+}
+
+
+.footer-links ul {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+}
+
+
+.social-icons {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+
+.social-icons a img {
+  width: 30px;
+  height: 30px;
+}
+
