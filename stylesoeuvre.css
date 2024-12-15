@@ -104,7 +104,7 @@ main h1 {
 }
 
 /* Action */
-.cta button {
+.cta {
   background-color: var(--accent-color);
   color: #fff;
   font-size: 1.5rem;
@@ -115,7 +115,7 @@ main h1 {
   transition: background-color 0.3s;
 }
 
-.cta button:hover {
+.cta :hover {
   background-color: var(--hover-color);
 }
 
