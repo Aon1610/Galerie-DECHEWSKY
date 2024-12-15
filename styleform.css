@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d9d9d9;
+    color: #333;
+  }
+  
+/* Header styles */
+.header {
+  display: flex;
+  align-items: center; /* Aligne verticalement le logo et les cadres */
+  padding: 10px;
+  background-color: #d9d9d9;
+  border-bottom: 2px solid #000;
+}
+
+
+.logo img {
+  height: 100px; /* Ajuste la hauteur de l'image */
+  padding: 5px;
+  border-radius: 5px; /* Coins légèrement arrondis */
+  margin-right: 15px; /* Espacement entre le logo et les cadres */
+}
+
+
+.menu {
+  display: flex;
+  gap: 10px; /* Espace horizontal entre les cadres */
+}
+
+
+.menu-item {
+  text-decoration: none;
+}
+
+
+.menu-box {
+  width: 100px; /* Largeur des cadres */
+  height: 80px; /* Hauteur des cadres */
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+
+.menu-box:hover {
+  background-color: #444;
+  transform: scale(1.05); /* Légère mise en avant au survol */
+}
+
+.contactrect {
+    display: flex;
+    position: absolute;
+    top: 18%;
+    width: 100%;
+    height: 110px;
+    background-color: #000;
+    justify-content: center;
+}
+
+h1 {
+    color: #ffffff;
+}
+
+
+/* Conteneur du formulaire */
+.form-container {
+  position: absolute;
+  top: 35%;
+  left: 38%;
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 120%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Titre */
+.form-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Style des labels */
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: left;
+  color: #555;
+}
+
+/* Champs de saisie */
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #333;
+  resize: none;
+}
+
+/* Champ focus */
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: #007BFF;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Bouton envoyer */
+form button {
+  width: 100%;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Bouton hover */
+form button:hover {
+  background-color: #0056b3;
+}
+
+  /* Footer */
+footer {
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid black;
+    position: absolute;
+    bottom: 0%;
+  }
+  
+  
+  .footer-logo img {
+    height: 50px;
+  }
+  
+  
+  .footer-links ul {
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  
+  .footer-links ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+  }
+  
+  
+  /* Social Media Icons */
+  .social-icons {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  
+  .social-icons a img {
+    width: 30px;
+    height: 30px;
+  }

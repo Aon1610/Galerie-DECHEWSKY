@@ -1,0 +1,165 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #d9d9d9;
+  color: #333;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  align-items: center; /* Aligne verticalement le logo et les cadres */
+  padding: 10px;
+  background-color: #d9d9d9;
+  border-bottom: 2px solid #000;
+}
+
+
+.logo img {
+  height: 100px; /* Ajuste la hauteur de l'image */
+  padding: 5px;
+  border-radius: 5px; /* Coins légèrement arrondis */
+  margin-right: 15px; /* Espacement entre le logo et les cadres */
+}
+
+
+.menu {
+  display: flex;
+  gap: 10px; /* Espace horizontal entre les cadres */
+}
+
+
+.menu-item {
+  text-decoration: none;
+}
+
+
+.menu-box {
+  width: 100px; /* Largeur des cadres */
+  height: 80px; /* Hauteur des cadres */
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+
+.menu-box:hover {
+  background-color: #444;
+  transform: scale(1.05); /* Légère mise en avant au survol */
+}
+
+
+
+/* Main */
+main {
+  text-align: center;
+  padding: 20px;
+}
+
+main h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+main .gallery-logo img {
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+main .gallery-image img {
+  width: 80%;
+  max-width: 900px;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+main .cta {
+  position: relative;
+  margin-top: 20px;
+}
+
+main .cta .paint-stroke {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+main .cta .paint-stroke img {
+  width: 700px;
+}
+
+main .cta .bouton {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 28px ;
+  font-weight: bold;
+  width: 400px;
+  height: 50px;
+  padding-top: 20px;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid black;
+  position: relative;
+}
+
+
+.footer-logo img {
+  height: 50px;
+}
+
+
+.footer-links ul {
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+}
+
+
+/* Social Media Icons */
+.social-icons {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+
+.social-icons a img {
+  width: 30px;
+  height: 30px;
+}
+
