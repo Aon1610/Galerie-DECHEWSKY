@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie DECHEWSKY Minimaliste</title>
+    <link rel="stylesheet" href="stylephone.css">
+</head>
+<body>
+    <!-- En-tête -->
+    <header>
+        <div class="logo"><img src="images/ptitlogo.png" alt="GDM"></div>
+        <h1>Galerie DECHEWSKY Minimaliste</h1>
+        <nav>
+            <ul>
+                
+                <div class="pyramide">
+                    <div class="ligne1">
+                        <div class="zone"><a href="#oeuvres">Nos œuvres</a></div>
+                        <div class="zone"><a href="#galerie">La Galerie</a></div>
+                        <div class="zone"><a href="#a-propos">À propos de moi</a></div>
+                    </div>
+                    <div class="ligne2">
+                        <div class="zone"><a href="#trouver">Nous trouver</a></div>
+                        <div class="zone"><a href="#contact">Contact</a></div>
+                    </div>
+                </div>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section d'accueil -->
+    <section class="accueil">
+        <h2><strong>La galerie</strong></h2>
+        <img src="images/expogalerie.png" alt="Galerie principale">
+        <p>La Galerie Minimaliste est un espace d'art contemporain axé sur la 
+            simplicité et l'essence des formes. Située en plein centre du vieux 
+            Nice, nous présentons des œuvres qui explorent des thèmes comme la 
+            perception et l'espace, dans un cadre épuré. Des événements comme des 
+            vernissages et des conférences sont organisés, favorisant le dialogue
+            entre artistes et visiteurs. C'est un lieu où l'art invite à la contemplation.</p>
+    </section>
+
+    <!-- Section des œuvres -->
+    <section id="oeuvres" class="oeuvres">
+        <h2>Nos Œuvres</h2>
+        <div class="image-grid">
+            <img src="images/art2.png" alt="Œuvre 1">
+            <img src="images/art5.png" alt="Œuvre 2">
+            <img src="images/art1.png" alt="Œuvre 3">
+            <img src="images/art3.png" alt="Œuvre 4">
+            <img src="images/art6.png" alt="Œuvre 5">
+            <img src="images/art4.png" alt="Œuvre 6">
+        </div>
+    </section>
+
+    <!-- À propos -->
+    <section id="a-propos" class="a-propos">
+        <h2>À Propos</h2>
+        <div class="contenu">
+            <img src="images/gilles.png" alt="Artiste">
+            <p>
+                Je m’appelle Gilles Dechewsky, j’ai 44 ans et je suis le propriétaire
+                 de “Galerie DECHEWSKY Minimaliste”. En tant que gérant de ma galerie 
+                 d'art dans le vieux Nice, je suis chaque jour immergé dans un univers 
+                 qui m’a toujours passionné. Ancien peintre, j’ai toujours eu un faible
+                  pour le minimalisme, cette capacité à transmettre des émotions profondes 
+                  à travers la simplicité des formes.
+                Mon espace, niché au cœur des ruelles pavées, est une extension de moi-même. 
+                Chaque œuvre que je choisis reflète mon admiration pour la pureté et l’essentiel.
+                J'aime créer un environnement où les visiteurs peuvent s’arrêter, contempler et ressentir.
+                Ici, je suis à la fois curateur et guide, partageant ma passion avec ceux qui franchissent le seuil. 
+                Les rencontres lors des vernissages sont particulièrement précieuses ; elles nourrissent ma vision 
+                et renforcent ma conviction que l'art minimaliste a le pouvoir d’éveiller une sensibilité unique. 
+                Dans cette galerie, chaque tableau, chaque sculpture raconte une histoire, et je suis honoré d’en faire partie
+            </p>
+        </div>
+    </section>
+    
+    <!-- Section Trouver -->
+    <section id="trouver" class="trouver">   
+        <h2>Où nous trouver ?</h2>
+        <img src="images/entreegallerie.png" alt="Devanture">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.4383545547575!2d7.268373116024689!3d43.70093657911921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cddab3a9d0e5c7%3A0xb60cbaf7582278c7!2s17%20Rue%20Droite%2C%2006300%20Nice%2C%20France!5e0!3m2!1sen!2sfr!4v1686822284821!5m2!1sen!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <h2>Nous Contacter</h2>
+        <form action="#" method="POST">
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" required>
+
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    
+
+    <!-- Pied de page -->
+    <footer>
+        <div class="logo-footer"><img src="images/ptitlogo.png" alt=GDM" id="footer-logo"></div>
+        <ul class="social-icons">
+            <a href="https://x.com/"><img src="images/x.png" alt="X"></a>
+            <a href="https://www.instagram.com/accounts/login/"><img src="images/insta.png" alt="Instagram"></a>
+            <a href="https://www.youtube.com/"><img src="images/youtube.png" alt="YouTube"></a>
+            <a href="https://www.linkedin.com/login/fr"><img src="images/linkedin.png" alt="LinkedIn"></a>          
+        </ul>
+        <h3><strong>Informations:</strong></h3
+>
+        <li>Conditions d’utilisations</li>
+        <li>Politique de confidentialité</li>
+        <li>Préférences de confidentialité </li>
+        
+    </footer>
+</body>
+</html>

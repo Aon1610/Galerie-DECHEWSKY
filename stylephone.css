@@ -1,0 +1,264 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d9d9d9;
+    color: #333;
+    width: 320px; /* Fixe la largeur à 320px */
+    margin: 0 auto; /* Centre la page horizontalement */
+    border-bottom: 2px;
+    border-color: #000;
+}
+
+a {
+    text-decoration: none; /* Enlève le soulignement */
+    color: inherit; /* Hérite la couleur du texte parent */
+}
+
+h2{
+    color: white;
+    background-color: #000;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/* En-tête */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    color: #fff;
+    padding: 10px 5px;
+    text-align: center;
+    border-bottom: 2px solid #000;
+    position: relative;
+}
+
+header img{
+    width: 40px;
+    position: absolute;
+    left: 10px;
+    
+}
+
+header h1{
+    color: #000;
+    font-size: 20px;
+}
+
+
+
+.pyramide {
+    padding-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre horizontalement les lignes */
+    gap: 20px; /* Espace entre les lignes */
+}
+
+.ligne1,
+.ligne2 {
+    display: flex;
+    gap: 10px; /* Espace entre les zones */
+}
+
+.ligne1 .zone {
+    width: 100px;
+    height: 25px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid black;
+}
+
+.ligne2 .zone {
+    width: 120px; /* Zones plus grandes pour la base */
+    height: 25px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 20px;
+    border: 1px solid black;
+}
+
+ul a{
+    font-size: 14px;
+    color: white;
+}
+
+/* Section accueil */
+.accueil {
+    text-align: center;
+    padding: 10px;
+}
+
+.accueil img {
+    width: 100%;
+    height: auto;
+}
+
+.accueil h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.accueil .btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+/* Section œuvres */
+.oeuvres {
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.oeuvres h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 5px;
+}
+
+.image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Section À propos */
+.a-propos {
+    padding: 10px;
+    background-color: #eee;
+    text-align: center;
+}
+
+.a-propos h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.a-propos img {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.a-propos p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Section trouver */
+.trouver{
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.trouver img{
+    width: 320px;
+}
+
+.trouver iframe{
+    width: 100%;
+}
+/* Section Contact */
+.contact {
+    padding: 10px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact label {
+    font-size: 14px;
+    text-align: left;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.contact button {
+    padding: 8px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #555;
+}
+
+/*footer*/
+footer {
+    background-color: #d9d9d9;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+#footer-logo{
+    width: 50px;
+}
+
+footer h3 {
+    font-size: 15px;
+    margin-top: 5px;
+    color: #000;
+}
+footer li{
+    font-size: 10px;
+    color: #000;
+    margin-top: 5px;
+}
