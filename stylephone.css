@@ -56,17 +56,18 @@ header h1{
 
 
 .pyramide {
+    list-style: none;
     padding-top: 5px;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centre horizontalement les lignes */
-    gap: 20px; /* Espace entre les lignes */
+    align-items: center; 
+    gap: 20px; 
 }
 
 .ligne1,
 .ligne2 {
     display: flex;
-    gap: 10px; /* Espace entre les zones */
+    gap: 10px; 
 }
 
 .ligne1 .zone {
@@ -79,7 +80,7 @@ header h1{
 }
 
 .ligne2 .zone {
-    width: 120px; /* Zones plus grandes pour la base */
+    width: 120px; 
     height: 25px;
     background-color: rgb(0, 0, 0);
     text-align: center;
